@@ -1,0 +1,128 @@
+{
+  "_readme": "SAMPLE CONTENT — the build agent replaces this whole file with the real spec from GET /api/website-builder/build-spec/:requestId. The sample follows the Challenger template's blueprints (category-creator register) so the repo runs standalone.",
+  "brand": {
+    "colors": { "primary": "#5E6AD2", "secondary": "#8B5CF6", "accent": "#A855F7", "text": "#E6E9EF", "neutralDark": "#08090A", "neutralLight": "#16171A" },
+    "fonts": { "heading": "Inter", "body": "Inter" },
+    "logos": { "color": null, "white": null, "black": null, "icon": null },
+    "faviconUrl": null,
+    "pack": { "heroByPage": {}, "ogByPage": {}, "ogDefault": null, "backgrounds": [], "featureIcons": [], "illustrations": [] }
+  },
+  "theme": { "mode": "dark", "density": "regular", "motion": "subtle" },
+  "template": { "key": "challenger", "version": 1 },
+  "ai_artifacts": { "llms_txt": null, "llms_full_txt": null, "json_ld": null, "site_url": null, "visible_ai_label": "Parts of this site were drafted with AI assistance and reviewed by our team." },
+  "site": {
+    "title": "Tailspin Revenue",
+    "description": "Sample content for the Challenger starter template.",
+    "config": { "domain": null },
+    "pages": [
+      {
+        "title": "Home", "sort_order": 0, "slug": "/", "page_kind": "home",
+        "meta_description": "Continuous revenue operations — the operating model that replaces the quarterly scramble.",
+        "sections": [
+          { "kind": "hero", "variant": "centered", "heading": "Welcome to continuous revenue", "subheading": "The quarter-end scramble was the operating model. It ends here.", "body": "", "fields": { "primary": { "label": "Start free", "href": "/pricing" }, "secondary": { "label": "Book a demo", "href": "/contact" } } },
+          { "kind": "logo_cloud", "variant": "row", "heading": "", "body": "", "fields": { "logos": [{ "name": "Fabrikam" }, { "name": "Contoso" }, { "name": "Northwind" }, { "name": "Woodgrove" }] } },
+          { "kind": "rich_text", "variant": "narrow_prose", "heading": "The old model is the competitor", "body": "Revenue teams still run on a model built for annual planning cycles: forecast at the start, scramble at the end, reconcile in between.\n\nContinuous revenue replaces the cycle with a loop — every signal lands in the plan the day it happens, and the plan re-forecasts itself. Not a dashboard over the old model. A different model.", "fields": {} },
+          { "kind": "feature_grid", "variant": "list_alternating", "heading": "The primitives that make it real", "body": "", "fields": { "bullets": [
+            { "title": "Live plan", "body": "The plan is a running system, not a January document — every deal event re-forecasts it." },
+            { "title": "Signal ledger", "body": "Every buyer touch lands in one ledger with lineage, so the forecast can show its work." },
+            { "title": "Accountable automation", "body": "The system drafts, a human approves — every automated move carries a name." }
+          ] } },
+          { "kind": "value_props", "variant": "columns_3", "heading": "What it knows, does, and never does", "body": "", "fields": { "bullets": [
+            { "title": "Knows", "body": "Your pipeline, your signals, your history — nothing outside your tenant." },
+            { "title": "Does", "body": "Re-forecasts, drafts next moves, flags drift the day it starts." },
+            { "title": "Never", "body": "Sends or commits anything without a named human approval." }
+          ] } },
+          { "kind": "metrics_band", "variant": "stat_tiles", "heading": "Teams on the new model report", "body": "", "fields": { "stats": [
+            { "value": "6 days", "label": "Faster quarter close" },
+            { "value": "31%", "label": "Less forecast variance" },
+            { "value": "0", "label": "Quarter-end scrambles since switching" }
+          ] } },
+          { "kind": "testimonial", "variant": "single_centered", "heading": "", "body": "", "fields": { "items": [{ "quote": "We stopped arguing about the number and started arguing about what to do next. That's the whole change.", "author": "Morgan Ellis", "role": "VP Revenue Operations", "company": "Contoso" }] } },
+          { "kind": "pricing", "variant": "tiers_3", "heading": "Try the model before you name it in a board deck", "body": "", "fields": { "tiers": [
+            { "name": "Starter", "price": "$0", "period": "mo", "description": "For one pipeline", "features": ["1 pipeline", "Live plan", "30-day ledger"], "cta": "Start free", "href": "/pricing" },
+            { "name": "Growth", "price": "$89", "period": "user/mo", "description": "For revenue teams", "features": ["Unlimited pipelines", "Signal ledger", "Approval flows"], "cta": "Start with Growth", "href": "/pricing", "highlighted": true },
+            { "name": "Enterprise", "price": "Custom", "period": "", "description": "For governed rollouts", "features": ["SSO / SAML", "Audit exports", "Dedicated support"], "cta": "Talk to us", "href": "/contact" }
+          ] } },
+          { "kind": "faq", "variant": "accordion", "heading": "What is continuous revenue?", "body": "", "fields": { "items": [
+            { "q": "What is continuous revenue?", "a": "An operating model where the plan re-forecasts on every signal instead of once a quarter — the plan is a system, not a document." },
+            { "q": "How is it different from a CRM?", "a": "A CRM records what happened. Continuous revenue changes what happens next — the plan itself reacts, with a human approving each move." },
+            { "q": "Do we replace our CRM?", "a": "No — it stays the system of record. The operating model runs on top of it." },
+            { "q": "Where does a human stay in the loop?", "a": "Every outbound or committed action requires a named approval. Autonomy is earned per workflow, never assumed." }
+          ] } },
+          { "kind": "cta", "variant": "split", "heading": "Run one pipeline on the new model", "body": "Free for one pipeline. A demo if you'd rather see it first.", "fields": { "primary": { "label": "Start free", "href": "/pricing" }, "secondary": { "label": "Book a demo", "href": "/contact" } } }
+        ], "image_briefs": []
+      },
+      {
+        "title": "Platform", "sort_order": 1, "slug": "/platform", "page_kind": "features",
+        "meta_description": "Live plan, signal ledger, accountable automation — the modules of continuous revenue.",
+        "sections": [
+          { "kind": "hero", "variant": "centered", "heading": "The category, decomposed", "subheading": "Three modules a revenue team can hold — each one proven with its own surface.", "body": "", "fields": {} },
+          { "kind": "feature_grid", "variant": "cards_3", "heading": "", "body": "", "fields": { "bullets": [
+            { "title": "Live Plan", "body": "The forecast that updates itself and shows its work." },
+            { "title": "Signal Ledger", "body": "One ordered record of every buyer touch, with lineage." },
+            { "title": "Approvals", "body": "Named human sign-off on every automated move." }
+          ] } },
+          { "kind": "value_props", "variant": "stacked_alternating", "heading": "The structural layer", "body": "", "fields": { "bullets": [
+            { "title": "One data model", "body": "Deals, signals, and plans share one schema, so nothing reconciles by hand." },
+            { "title": "Composable rules", "body": "Routing and forecasting rules compose — change one without breaking the rest." }
+          ] } },
+          { "kind": "logo_cloud", "variant": "with_heading", "heading": "Runs on your stack", "body": "", "fields": { "logos": [{ "name": "Salesforce" }, { "name": "HubSpot" }, { "name": "Slack" }, { "name": "Snowflake" }] } },
+          { "kind": "cta", "variant": "banner", "heading": "See the modules on your own pipeline", "body": "", "fields": { "primary": { "label": "Start free", "href": "/pricing" } } }
+        ], "image_briefs": []
+      },
+      {
+        "title": "Method", "sort_order": 2, "slug": "/method", "page_kind": "custom",
+        "meta_description": "Continuous revenue, defined — the essay behind the category.",
+        "sections": [
+          { "kind": "hero", "variant": "centered", "heading": "Continuous revenue, defined", "subheading": "The essay behind the category — what broke, and what replaces it.", "body": "", "fields": {} },
+          { "kind": "rich_text", "variant": "prose", "heading": "", "body": "Quarterly revenue planning made sense when signals arrived quarterly. They don't anymore.\n\nEvery buyer touch is observable the moment it happens — yet most teams still batch them into a quarterly reconciliation, then scramble when the batch disagrees with the plan. The scramble isn't a discipline problem. It's the operating model working as designed.\n\nContinuous revenue is the replacement model: the plan is a running system that consumes every signal on arrival and re-forecasts itself, with a named human approving every move the system proposes. Continuous, because the loop never batches. Revenue, because the loop owns the number.\n\nA continuous revenue system has three properties: it reacts to signals the day they happen, it shows the lineage behind every number, and it never acts outward without a human's name on the action.", "fields": {} },
+          { "kind": "comparison", "variant": "vs_table", "heading": "The old way and the new way", "body": "", "fields": { "competitor": "Quarterly planning", "rows": [
+            { "capability": "Forecast updates", "us": "On every signal", "them": "Once a quarter" },
+            { "capability": "Number lineage", "us": "Every figure shows its work", "them": "Reconciled by hand" },
+            { "capability": "Quarter close", "us": "A checkpoint", "them": "A scramble" }
+          ] } },
+          { "kind": "value_props", "variant": "checklist", "heading": "What changes on day one", "body": "", "fields": { "bullets": [
+            { "title": "The Monday forecast meeting becomes a review, not an argument" },
+            { "title": "Every number in the board deck traces to its signals" },
+            { "title": "Automation proposals wait for a named yes" }
+          ] } },
+          { "kind": "faq", "variant": "accordion", "heading": "The skeptic's questions", "body": "", "fields": { "items": [
+            { "q": "Is this just forecasting software?", "a": "Forecasting tools predict the number under the old model. Continuous revenue changes when and how the number moves — the model, not the math." },
+            { "q": "Isn't a new category just marketing?", "a": "Judge it by the properties: signal-driven re-forecasting, full lineage, named approvals. If a tool has all three, it's running the model — whatever it's called." },
+            { "q": "What if we're not ready?", "a": "Start with one pipeline. The model proves itself in a quarter or it doesn't." }
+          ] } },
+          { "kind": "cta", "variant": "banner", "heading": "Read enough?", "body": "", "fields": { "primary": { "label": "Start free", "href": "/pricing" }, "secondary": { "label": "Talk to the team", "href": "/contact" } } }
+        ], "image_briefs": []
+      },
+      {
+        "title": "Pricing", "sort_order": 3, "slug": "/pricing", "page_kind": "pricing",
+        "meta_description": "Free for one pipeline; real prices for the rest.",
+        "sections": [
+          { "kind": "hero", "variant": "centered", "heading": "Trying the new model is cheap", "subheading": "Running the old one is what's expensive.", "body": "", "fields": {} },
+          { "kind": "pricing", "variant": "tiers_3", "heading": "", "body": "", "fields": { "tiers": [
+            { "name": "Starter", "price": "$0", "period": "mo", "description": "For one pipeline", "features": ["1 pipeline", "Live plan", "30-day ledger"], "cta": "Start free", "href": "/contact" },
+            { "name": "Growth", "price": "$89", "period": "user/mo", "description": "For revenue teams", "features": ["Unlimited pipelines", "Signal ledger", "Approval flows"], "cta": "Start with Growth", "href": "/contact", "highlighted": true },
+            { "name": "Enterprise", "price": "Custom", "period": "", "description": "For governed rollouts", "features": ["SSO / SAML", "Audit exports", "Dedicated support"], "cta": "Talk to us", "href": "/contact" }
+          ] } },
+          { "kind": "trust_security", "variant": "badge_row", "heading": "Governed by design", "body": "", "fields": { "badges": [{ "name": "SOC 2 Type II" }, { "name": "SSO / SAML" }, { "name": "Audit log" }] } },
+          { "kind": "faq", "variant": "accordion", "heading": "Switching questions", "body": "", "fields": { "items": [
+            { "q": "What does migration cost?", "a": "One afternoon: connect the CRM, import the open pipeline, keep both running until you trust the loop." },
+            { "q": "Can we run both models in parallel?", "a": "Yes — most teams run one pipeline on continuous revenue for a quarter before moving the rest." },
+            { "q": "What happens if we leave?", "a": "Full ledger export, any time. The CRM stays your system of record throughout." }
+          ] } },
+          { "kind": "cta", "variant": "split", "heading": "One pipeline, one quarter", "body": "That's the whole ask.", "fields": { "primary": { "label": "Start free", "href": "/contact" }, "secondary": { "label": "Book a demo", "href": "/contact" } } }
+        ], "image_briefs": []
+      },
+      {
+        "title": "Contact", "sort_order": 4, "slug": "/contact", "page_kind": "contact",
+        "meta_description": "Book the walkthrough — or ask anything.",
+        "sections": [
+          { "kind": "hero", "variant": "centered", "heading": "Book the walkthrough", "subheading": "Forty minutes on your own pipeline data.", "body": "", "fields": {} },
+          { "kind": "rich_text", "variant": "prose", "heading": "", "body": "Email hello@example.com and someone who runs the model daily replies within one business day.\n\nIf you'd rather not talk, the Starter tier needs no conversation at all.", "fields": {} },
+          { "kind": "cta", "variant": "split", "heading": "Or just start", "body": "Free for one pipeline.", "fields": { "primary": { "label": "Email us", "href": "mailto:hello@example.com" }, "secondary": { "label": "Start free", "href": "/pricing" } } }
+        ], "image_briefs": []
+      }
+    ],
+    "blog_posts": []
+  }
+}
